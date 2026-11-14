@@ -61,5 +61,5 @@ Hai queue `dataQueue` và `dataAlert` truyền dữ liệu từ task đọc đ�
 - **Độ cao:** cảnh báo khi hai mẫu liên tiếp chênh lệch từ 3 m, với khoảng cách thời gian giữa hai mẫu từ 1–3 giây. Cảnh báo giữ 10 giây kể từ lần phát hiện gần nhất.
 - **Cảm biến:** cảnh báo khi mẫu đọc không hợp lệ hoặc quá 6 giây không có mẫu hợp lệ.
 
-Các ngưỡng phục vụ bài mô phỏng, có thể chỉnh trong [AlertEngine.h](wokwi/AlertEngine.h). BMP180 đo **nhiệt độ môi trường, không phải thân nhiệt**; độ cao tính từ áp suất cần hiệu chuẩn áp suất mực nước biển khi sử dụng thực tế.
+
 
