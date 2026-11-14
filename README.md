@@ -18,16 +18,6 @@
 - Điều khiển LED, còi ở chế độ manual và chuyển về chế độ tự động trên web.
 - Trang chính hiển thị trạng thái MQTT. Các mục kết nối, nhật ký và cài đặt nằm trong phần **MQTT**.
 
-## Cấu trúc thư mục
-
-```text
-baocao/       Báo cáo Word
-images/       Ảnh giao diện và kết quả kiểm thử
-web/          Giao diện HTML, CSS, JavaScript và thư viện MQTT
-wokwi/        Code ESP32, sơ đồ mạch, danh sách thư viện và link Wokwi
-README.md     Giới thiệu và hướng dẫn chạy dự án
-```
-
 ## Cách chạy
 
 1. Mở [dự án Wokwi](https://wokwi.com/projects/477913990577984513), nhấn **Start Simulation** và chờ ESP32 kết nối Wi-Fi, MQTT. Có thể theo dõi thông báo và số đo trong Serial Monitor.
