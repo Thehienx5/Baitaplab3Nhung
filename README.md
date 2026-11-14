@@ -4,15 +4,8 @@ Giám sát nhiệt độ môi trường, áp suất và độ cao khí áp bằn
 
 **Wokwi:** https://wokwi.com/projects/477913990577984513
 
-## Chạy mô phỏng
 
-1. Mở dự án Wokwi. Nội dung `firmware/runner/runner.ino` là `sketch.ino` trên Wokwi.
-2. Giữ `AlertEngine.h`, `diagram.json`, `libraries.txt` cùng dự án. Hai thư viện là Adafruit BMP085 Library và PubSubClient.
-3. Bấm Start. Serial 115200 xác nhận TaskTransmit Core 0; TaskRead và TaskAlert Core 1.
-4. Mở **MO_DASHBOARD.html** bằng Chrome hoặc Edge. Tệp này chứa sẵn CSS, MQTT.js và mã ứng dụng, nên có thể chạy độc lập. Bản tiện dụng đã được đặt riêng ở `E:\MO_DASHBOARD.html`. Nếu chỉnh sửa mã nguồn trong `web/`, cần giữ cả thư mục đó. Dashboard mặc định tự kết nối MQTT. Nếu đã tắt tùy chọn tự kết nối, vào **MQTT → Kết nối** rồi bấm **Kết nối lại**.
-5. Chờ số đo thật qua broker; LED và Còi chỉ cập nhật trạng thái sau phản hồi ESP32. Trang chính chỉ hiện trạng thái MQTT hoạt động hay chưa; broker, topic và liên kết bài nằm ở **MQTT → Settings**.
-
-## Đấu dây
+## Sơ đồ
 
 | Thiết bị | ESP32 |
 |---|---|
