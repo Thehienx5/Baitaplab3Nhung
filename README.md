@@ -7,7 +7,7 @@
 - [Chạy mô phỏng trên Wokwi](https://wokwi.com/projects/477913990577984513)
 - [Xem báo cáo Word](baocao/Bao_cao_Lab3_Runner.docx)
 - [Mã nguồn ESP32](wokwi/sketch.ino)
-- [Mã nguồn giao diện web](web/index.html)
+- [Mã nguồn giao diện web](https://thehienx5.github.io/Baitaplab3Nhung/web/index.html)
 
 ## Các chức năng
 
@@ -17,16 +17,6 @@
 - Cảnh báo tự động bằng LED và còi khi nhiệt độ vượt giới hạn, độ cao thay đổi đột ngột hoặc mất dữ liệu cảm biến.
 - Điều khiển LED, còi ở chế độ manual và chuyển về chế độ tự động trên web.
 - Trang chính hiển thị trạng thái MQTT. Các mục kết nối, nhật ký và cài đặt nằm trong phần **MQTT**.
-
-## Cách chạy
-
-1. Mở [dự án Wokwi](https://wokwi.com/projects/477913990577984513), nhấn **Start Simulation** và chờ ESP32 kết nối Wi-Fi, MQTT. Có thể theo dõi thông báo và số đo trong Serial Monitor.
-2. Tải dự án về máy và giải nén. Mở `web/index.html`; giữ nguyên các tệp đi kèm trong thư mục `web` để giao diện hoạt động đầy đủ.
-3. Web tự kết nối broker. Vào **MQTT → Settings** để kiểm tra địa chỉ broker, topic gốc và đường dẫn dự án. Topic của web phải trùng với topic trong code ESP32.
-4. Khi nhận được dữ liệu, các thẻ số và biểu đồ sẽ cập nhật. Kết nối broker thành công chưa có nghĩa ESP32 đang gửi dữ liệu; cần kiểm tra cả số đo và trạng thái thiết bị.
-5. Chọn chế độ manual để thử nút LED, còi. Chuyển về tự động để thiết bị cảnh báo theo dữ liệu cảm biến.
-
-Máy tính cần có Internet và mô phỏng Wokwi phải đang chạy để nhận dữ liệu từ ESP32.
 
 ## Cấu hình MQTT
 
