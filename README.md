@@ -5,7 +5,7 @@
 ## Mở dự án
 
 - [Chạy mô phỏng trên Wokwi](https://wokwi.com/projects/477913990577984513)
-- [Xem báo cáo Word](baocao/Bao_cao_Lab3_Runner.docx)
+- [Xem báo cáo Word](https://github.com/Thehienx5/Baitaplab3Nhung/raw/refs/heads/main/docs/Bao_cao_Lab3_Runner.docx)
 - [Mã nguồn ESP32](https://github.com/Thehienx5/Baitaplab3Nhung/blob/main/Wokwi/sketch.ino)
 - [Mã nguồn giao diện web](https://thehienx5.github.io/Baitaplab3Nhung/web/index.html)
 
